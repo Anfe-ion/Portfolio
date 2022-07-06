@@ -1,0 +1,36 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.madeby-footer{
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.madeby-footer a{
+    color: #FF6A3D;
+}
+
+.madeby-footer a:hover{
+    color:#2A7AE4;
+}
+
+.h4-footer{
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.credits-footer{
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.credits-footer a{
+    color: #FF6A3D
+}
+
+.credits-footer a:hover{
+    color: #2A7AE4;
+}

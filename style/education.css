@@ -1,0 +1,38 @@
+.education{
+    background: #EAF2FD;;
+    text-align: center; 
+}
+
+.div-education{
+    background: #EAF2FD; 
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding: 1rem;    
+}
+
+.h2-education{
+    background: #EAF2FD; 
+    color: #1A2238;
+    text-align: center;
+    padding-top: 2rem;   
+}
+
+.education-img{
+    width: 20rem;
+    background: #EAF2FD; 
+}
+
+.education-h3{
+    background: #EAF2FD; 
+    color: #1A2238;
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    text-align: left;
+}
+
+.education-p{
+    background: #EAF2FD; 
+    color: #1A2238;
+    font-size: 0.8rem;
+    text-align: left;
+}

@@ -1,0 +1,52 @@
+.banner{
+    font-size: 2rem;  
+}
+
+.h2-banner{
+    color:black;
+    margin: 5rem 2rem 0rem 10rem; 
+    /*arriba, derecha, abajo, izquierda*/
+}
+
+.span-1-banner{
+    color: #2A7AE4;
+}
+
+.span-2-banner{
+    color: #FF6A3D;
+}
+
+.div-links-banner{
+    margin: .5rem 2rem 3rem 10rem; 
+}
+
+.social-banner{
+    font-size: 1.5rem;
+    color: #FF6A3D;
+    padding-right: 1rem;
+}
+
+.social-banner:hover{
+    color: #2A7AE4;
+}
+
+@media screen and (max-width: 1460px){
+    .h2-banner{
+        margin: 1rem 2rem 0rem 3rem;        
+    }
+
+    .div-links-banner{
+        margin: .5rem 0rem 1rem 3rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .banner{
+        font-size: 1rem;  
+    }    
+    .h2-banner{
+        color:black;
+        margin: 0.5rem 0rem 0rem 1rem; 
+    }
+}

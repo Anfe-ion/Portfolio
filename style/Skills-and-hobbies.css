@@ -1,0 +1,41 @@
+
+.skills, .hobbies{
+    margin: 0rem 10rem 0rem 10rem;
+    text-align: center;
+    padding-bottom: 2rem;    
+}
+
+.h2-skills, .h2-hobbies{
+    text-align: center;
+}
+
+.h2-skills{
+    padding-top: 2rem;
+}
+
+.skills-img, .hobbies-img{
+    width: 10rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 1460px){
+
+    .skills, .hobbies{
+        text-align: center;
+        margin: 0rem 3rem 0rem 3rem;
+    }
+
+    .skills-img, .hobbies-img{
+        width: 15rem;
+        padding: 1rem;   
+    }
+}
+
+@media screen and (min-width: 375px){
+    .skills-img, .hobbies-img{
+        width: 7rem;
+        padding: 0.5rem;   
+    }
+}
+
+

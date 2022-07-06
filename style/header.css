@@ -1,0 +1,76 @@
+.header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.h1-header{
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.h1-header-span{
+    font-weight: 600;
+    color:#FF6A3D    
+}
+
+.h1-header-span:hover, .h1-header:hover{
+    color: #2A7AE4;
+}
+
+.logo{
+    width: 6.25rem;
+    padding: 1rem;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+
+.menu-list a{
+    color: #FF6A3D;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.mail a{
+    color: #FF6A3D;
+    font-weight: 600;
+}
+
+.list-item{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.list-item:hover a{
+    color: #2A7AE4;
+}
+
+@media screen and (max-width: 1460px){
+    .display-item{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .display-item{
+        display: none;
+    }
+
+    .header{
+        align-items: left;
+        justify-content: left;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .menu-list{
+        margin-top: -0.5rem;
+    }
+}

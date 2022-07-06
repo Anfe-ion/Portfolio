@@ -1,0 +1,55 @@
+.contact{
+    padding-top: 2rem;
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h3-contact, .p-contact{
+    background-color: #EAF2FD;
+}
+
+.box{
+    width: 35rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.box:focus{
+    outline: none;
+    border-bottom: solid #2A7AE4 0.1rem;
+}
+
+.message-contact{
+    height: 10rem;
+    line-height: 10rem;
+}
+
+.button-contact{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    width: 10rem;
+    border: none;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border-radius: .3rem;
+    background-color: #2A7AE4;
+}
+
+.button-contact:hover{
+    background-color: #FF6A3D;
+}
+
+@media screen and (min-width: 375px){
+    .box{
+        width: 18rem;
+        padding: 0.5rem;
+    }
+}
