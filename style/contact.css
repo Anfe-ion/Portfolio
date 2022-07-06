@@ -47,7 +47,7 @@
     background-color: #FF6A3D;
 }
 
-@media screen and (min-width: 375px){
+@media screen and (max-width: 375px){
     .box{
         width: 18rem;
         padding: 0.5rem;

@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (min-width: 375px){
+@media screen and (max-width: 375px){
     .skills-img, .hobbies-img{
         width: 7rem;
         padding: 0.5rem;   
